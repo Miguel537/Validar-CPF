@@ -22,3 +22,19 @@ body{
     width: 100%;
     box-sizing: border-box;
 }
+
+label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-container button{
+    padding: 15px;
+    background-color: #9b6262;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
