@@ -36,4 +36,6 @@ function validarCPF(cpf){
     if(resto !== parseInt(cpf.substring (10, 11))){
         return false;
     }
+
+    return true; 
 }
