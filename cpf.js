@@ -49,5 +49,14 @@ document.getElementById('cpfForm').addEventListener("submit", function(e){
 
     if(validarCPF(cpfInput)){
         messageDiv.textContent = "CPF Válido";
+        messageDiv.className = "massage sucess";
+
+    } 
+    
+    else{
+        messageDiv.textContent = "CPF Inválido";
+        messageDiv.className = "message erro";
     }
+
+    messageDiv.style.display = "block";
 });
