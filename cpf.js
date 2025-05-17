@@ -39,3 +39,15 @@ function validarCPF(cpf){
 
     return true; 
 }
+
+document.getElementById('cpfForm').addEventListener("submit", function(e){
+    e.preventDefault();
+
+    const cpfInput = document. 
+    getElementById('cpf').value;
+    const messageDiv = document.getElementById ('message');
+
+    if(validarCPF(cpfInput)){
+        messageDiv.textContent = "CPF Válido";
+    }
+});
