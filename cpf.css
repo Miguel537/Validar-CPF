@@ -4,7 +4,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #9b6262;
+    background-color: #000000;
     font-family: Arial;
 }
 
@@ -31,7 +31,7 @@ label{
 
 .form-container button{
     padding: 15px;
-    background-color: #9b6262;
+    background-color: #0026ff;
     color: white;
     border: none;
     border-radius: 5px;
