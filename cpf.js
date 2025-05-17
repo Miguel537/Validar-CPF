@@ -24,8 +24,9 @@ function validarCPF(cpf){
 
 
     //Validando o 2 digito
+    soma = 0;
     for (let i = 2; i <=10; i ++){
-        soma += parseInt(cpf.substring(i-1, i) * (12-i));
+        soma += parseInt(cpf.substring(i-1, i) * (12 - i));
     }
 
     resto = (soma * 10) % 11;
